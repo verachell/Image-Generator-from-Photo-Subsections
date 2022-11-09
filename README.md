@@ -6,7 +6,9 @@ This is a shell script specific to bash.
 This creates a series of non-overlapping horizontal rectangular subsections from local JPG images in the working directory. In addition it creates a series of circular png images suitable for profile image placeholders. The resultant 2 new sets of images are placed into new directories. This script uses imagemagick, which is bundled by default into most linux installations.
 
 ## Typical use case
-This is helpful for those who want to quickly and easily generate a series of images perfect for quick mock-ups or as a source of images for generative fiction. These are ideal for when you need to generate multiple simple images quickly.
+This is helpful for those who want to quickly and easily generate a series of simple images perfect for quick mock-ups or as a source of images for generative fiction. 
+
+These images do not look fancy but are ideal for when you just need to generate multiple simple images quickly. If you're looking for an option other than a one-color image or blurred-background placeholder, this may be the solution you're looking for.
 
 ## Usage
 All you need is the shell script from this repository ```photosubsec.sh``` and your own image file(s) - as many or as few as you want, whose filenames start with IMG and end with .JPG or .jpg. 
