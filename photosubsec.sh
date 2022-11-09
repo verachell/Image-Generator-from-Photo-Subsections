@@ -7,11 +7,11 @@
 # USAGE: place this script in the same Linux working directory as your source image files. Ensure it
 # has executable permissions. At the command line, type './photosubsec.sh' (without the quotes).
 # No arguments are needed; the script will act on all images in the working directory which start
-# with IMG and end with .jpg (case insensitive).
+# with IMG and end with .jpg or .JPG.
 #
 # first create square and rectangular pics as needed
-# This creates directories 'SUBSEC_horizontal' and 'SUBSEC_prof'; be aware that if these 
-# already exist they will be overwritten
+# This creates directories 'SUBSEC_horizontal' and 'SUBSEC_profile'; be aware that if these 
+# already exist they may be overwritten
 
 # start with horizontal rectangular images
 mkdir -p SUBSEC_horizontal
