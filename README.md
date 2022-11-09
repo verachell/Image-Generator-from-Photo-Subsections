@@ -19,7 +19,7 @@ To use, place this script in the same Linux working directory as your source ima
 This creates directories 'SUBSEC_horizontal' and 'SUBSEC_profile'; be aware that if these  already exist inside your working directory they may be overwritten. Your horizontal jpgs will be placed in SUBSEC_horizontal and the circular pngs suitable for profile images will be in SUBSEC_profile.
 
 ### Ability to use your own photos as input
-This script uses whatever images you have in the working directory where you're running this script. (Note: it actually uses images that start with IMG and end with .jpg or .JPG since that's how most camera images are formatted - of course, you can adjust the script to your own needs). The advantage of using your own images is that you then don't need to find how to credit the photographer.
+This script uses whatever images you have in the working directory where you're running this script. (Note: it actually uses images that start with IMG and end with .jpg or .JPG since that's how most camera images are formatted - of course, you can adjust the script to your own needs). The advantage of using your own images is that you then don't need to worry about spending time to find public domain images, etc.
 
 ## Example input and output
 This repository shows example input and output. The 3 JPG files in the main directory are the input photos (taken by me). The 2 SUBSEC directories contain the output images. This allows you to get a feel for how it works before trying it with your own photos.
