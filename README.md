@@ -8,8 +8,7 @@ This creates a series of non-overlapping horizontal rectangular subsections from
 ## Typical use case
 This is helpful for those who want to quickly and easily generate a series of simple images perfect for quick mock-ups or as a source of images for generative fiction. 
 
-These images do not look fancy but are ideal for when you just need to generate multiple simple images quickly. If you're looking for an option other than a one-color image or blurred-background placeholder, this may be the solution you're looking for.
-
+These images do not look fancy but are ideal for when you just need to generate multiple simple images quickly.
 ## Usage
 All you need is the shell script from this repository ```photosubsec.sh``` and your own image file(s) - as many or as few as you want, whose filenames start with IMG and end with .JPG or .jpg. 
 
