@@ -1,10 +1,12 @@
 # Image-Generator-from-Photo-Subsections
 From one or more of your local photos, obtains subsections from each photo giving a range of circular png images and horizontal rectangular jpg images
 
-This is a shell script specific to bash. It creates a series of non-overlapping horizontal rectangular subsections from local JPG images in the working directory. In addition it creates a series of circular png images suitable for profile image placeholders. The resultant 2 new sets of images are placed into new directories. This script uses imagemagick, which is bundled by default into most linux installations.
+This is a shell script specific to bash. 
+
+This creates a series of non-overlapping horizontal rectangular subsections from local JPG images in the working directory. In addition it creates a series of circular png images suitable for profile image placeholders. The resultant 2 new sets of images are placed into new directories. This script uses imagemagick, which is bundled by default into most linux installations.
 
 ## Typical use case
-This is helpful for those who want to quickly and easily generate a series of random images intermediate between single color images and regular photos. These are perfect for quick mock-ups or as a source of images for generative fiction.
+This is helpful for those who want to quickly and easily generate a series of random images perfect for quick mock-ups or as a source of images for generative fiction. These are ideal for when you need to generate multiple images quickly, and the resultant images will be somewhere on the spectrum between a single-color image and a full regular photo.
 
 ## Usage
 All you need is the shell script from this repository ```photosubsec.sh``` and your own image file(s) - as many or as few as you want, whose filenames start with IMG and end with .JPG or .jpg. 
