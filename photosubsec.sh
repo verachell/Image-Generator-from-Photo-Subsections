@@ -20,7 +20,6 @@ mkdir -p SUBSEC_horizontal
 if compgen -G "IMG*.JPG" > /dev/null; then
 for f in $(ls IMG*.JPG)
 do
-# convert $f -strip -resize 2400x1600 -resize 2400x1600^ -crop 2400x1600+0+0 +repage -crop 600x400 +repage +adjoin SUBSEC_horizontal/horiz_%d_${f}
 convert $f -strip -resize 2400x1600 -resize 2400x1600^ -crop 2400x1600+0+0 +repage -crop 600x400 +repage +adjoin SUBSEC_horizontal/$(basename -s .JPG $f).jpg
 done
 fi
@@ -29,7 +28,6 @@ fi
 if compgen -G "IMG*.jpg" > /dev/null; then
 for f in $(ls IMG*.jpg)
 do
-# convert $f -strip -resize 2400x1600 -resize 2400x1600^ -crop 2400x1600+0+0 +repage -crop 600x400 +repage +adjoin SUBSEC_horizontal/horiz_%d_${f}
 convert $f -strip -resize 2400x1600 -resize 2400x1600^ -crop 2400x1600+0+0 +repage -crop 600x400 +repage +adjoin SUBSEC_horizontal/$(basename -s .jpg $f).jpg
 done
 fi
