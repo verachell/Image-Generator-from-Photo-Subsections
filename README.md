@@ -5,7 +5,7 @@ This is a shell script specific to bash.
 
 This creates a series of non-overlapping horizontal rectangular subsections from local JPG images in the working directory. In addition it creates a series of circular png images suitable for profile image placeholders. The resultant 2 new sets of images are placed into new directories. This script uses imagemagick, which is bundled by default into most linux installations. 
 
-To check if you have imagemagick, type ```man convert``` and the manual will come up if you have it. If it doesn't come up, install imagemagick using your Linux package manager.
+To check if you have imagemagick, type ```man convert``` and the manual will come up if you have it. If it doesn't come up, you can install imagemagick using your Linux package manager.
 
 ## Typical use case
 This is helpful for those who want to quickly and easily generate a series of simple images perfect for quick mock-ups or as a source of images for generative fiction. 
