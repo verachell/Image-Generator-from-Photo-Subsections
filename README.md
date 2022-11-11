@@ -8,7 +8,8 @@ This creates a series of non-overlapping horizontal rectangular subsections from
 ## Typical use case
 This is helpful for those who want to quickly and easily generate a series of simple images perfect for quick mock-ups or as a source of images for generative fiction. 
 
-These images do not look fancy but are ideal for when you just need to generate multiple simple images quickly.
+These images do not look fancy but are ideal for when you just need to generate multiple simple and non-meaningful images quickly.
+
 ## Usage
 All you need is the shell script from this repository ```photosubsec.sh``` and your own image file(s) - as many or as few as you want, whose filenames start with IMG and end with .JPG or .jpg. 
 
@@ -24,10 +25,16 @@ This script uses whatever images you have in the working directory where you're 
 ## Example input and output
 This repository shows example input and output. The 3 JPG files in the main directory are the input photos (taken by me). The 2 SUBSEC directories contain the output images. This allows you to get a feel for how it works before trying it with your own photos.
 
-Here are a few of the profile photos https://github.com/verachell/Image-Generator-from-Photo-Subsections/blob/main/SUBSEC_profile/prof_tempIMG_1472-6.png, https://github.com/verachell/Image-Generator-from-Photo-Subsections/blob/main/SUBSEC_profile/prof_tempIMG_1472-21.png, https://github.com/verachell/Image-Generator-from-Photo-Subsections/blob/main/SUBSEC_profile/prof_tempIMG_1472-23.png that were generated from this input photo https://github.com/verachell/Image-Generator-from-Photo-Subsections/blob/main/IMG_1472.JPG . There are more examples you can browse in this repository.
+Here are a few of the profile photos:
+
+- https://github.com/verachell/Image-Generator-from-Photo-Subsections/blob/main/SUBSEC_profile/prof_tempIMG_1472-6.png
+- https://github.com/verachell/Image-Generator-from-Photo-Subsections/blob/main/SUBSEC_profile/prof_tempIMG_1472-21.png
+- https://github.com/verachell/Image-Generator-from-Photo-Subsections/blob/main/SUBSEC_profile/prof_tempIMG_1472-23.png 
+
+These were generated from this input photo https://github.com/verachell/Image-Generator-from-Photo-Subsections/blob/main/IMG_1472.JPG . There are more examples you can browse in this repository.
 
 ## Limitations and caveats 
-Source images are best suited when they are in landscape format and approximately 2400x1600 but the script works well on other sizes and aspect ratios. Do not worry about not having the exact size or the aspect ratio; this is all taken care of by the script. It will still work with images other than the recommended size or different aspect ratios, but in those situations be aware some parts of your source photo will never get used (on the right and on the bottom) and/or there will be some lossiness in the resultant new images (originals remain unmodified). The degree of lossiness you experience is proportional to how far away your dimensions and aspect ratios are from 2400x1600. Your aspect ratio is always maintained, it's just that scaling of your photo as a whole might be applied during the process (again, without modifying the original).
+Source images are best suited when they are in landscape format and approximately 2400x1600 but the script works well on other sizes and aspect ratios. Do not worry about not having the exact size or the aspect ratio; this is all taken care of by the script. It will still work with images other than the recommended size or different aspect ratios, but in those situations be aware some parts of your source photo will never get used (small-ish bits on the right and on the bottom) and/or there will be some lossiness in the resultant new images (originals remain unmodified). The degree of lossiness you experience is proportional to how far away your dimensions and aspect ratios are from 2400x1600. Your aspect ratio is always maintained, it's just that scaling of your photo as a whole might be applied during the process (again, without modifying the original).
 
 ## Things to know if you plan on modifying this script
 This script is particularly well suited to modification for other purposes and other use cases such as other image processing to include artistic effects and/or output of other dimensions of images. 
